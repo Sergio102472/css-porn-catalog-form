@@ -3,14 +3,29 @@
 
 
 
-html, body, div, input, label, a {
+html, body, div, input, label, a,
+div.form-box div.form table a,
+div.form-box input.form-name {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 500;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
 }
 
-
+.button {
+    height: auto;
+    border: 0px;
+    width: auto;
+    text-align: center;
+    background-color: #9c49a4;
+    color: #ffffff;
+    /* font-size: 14px; */
+    /* font-family: Tahoma; */
+    /* font-weight: bold; */
+    margin: 10px;
+    padding: 13px;
+    border-radius: 3px;
+}
 
 
