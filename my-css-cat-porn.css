@@ -13,7 +13,12 @@ div.form-box input.form-name {
   font-size: 14px;
 }
 
-.button {
+.button,
+input.login,
+input.tos,
+input.next
+
+{
     height: auto;
     border: 0px;
     width: auto;
@@ -41,7 +46,10 @@ div.form-box input.form-name {
 <button class="button-64" role="button"><span class="text">Button 64</span></button>
 
 CSS */
-input.button {
+input.button,
+input.login,
+input.tos,
+input.next {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
   border: 0;
@@ -62,18 +70,30 @@ input.button {
 }
 
 input.button:active,
-input.button:hover {
+input.login:active,
+input.tos:active,
+input.next:active,
+input.button:hover,
+input.login:hover,
+input.tos:hover,
+input.next:hover {
   outline: 0;
 }
 
-input.button {
+input.button,
+input.login,
+input.tos,
+input.next {
   background-color: rgb(5, 6, 45);
   padding: 16px 24px;
   border-radius: 6px;
   transition: 300ms;
 }
 
-input.button:hover {
+input.button:hover,
+input.login:hover,
+input.tos:hover,
+input.next:hover {
   background: #5B42F3;
 }
 
